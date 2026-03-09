@@ -1,4 +1,4 @@
-```python
+
 import sys, random
 
 mode, infile, outfile = sys.argv[1], sys.argv[2], sys.argv[3]
@@ -27,4 +27,4 @@ else:
     out=[rot(c,-ROT) for c in tmp]
 
 open(outfile,"w").write("".join(out))
-```
+
